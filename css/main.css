@@ -76,6 +76,10 @@ h1 {
   color: #ffffff;
   margin-bottom: 31px;
 }
+.content-app .title-h2 {
+  margin-bottom: 41px;
+  margin-top: 0;
+}
 .page-subscribe .title-h2 span {
   color: #00bffe;
   font-size: 14px;
@@ -291,7 +295,7 @@ line-height: 26px;
 .page-software-flex>div{
   flex-basis: 55%;
 }
-.page-software-icon {
+.settings-icon {
   display: block;
   width: 117px;
   height: 98px;
@@ -299,10 +303,33 @@ line-height: 26px;
   background-image: url(../img/subscribe-icon.png);
   background-position: -20px 0;
 }
-.page-software .title-h2 {
+.flex-analytics>img {
+  flex-basis: 45%;
+}
+.flex-analytics>div {
+  flex-basis: 53%;
+}
+.flex-analytics-second>img {
+  flex-basis: 45%;
+}
+.flex-analytics-second>div {
+  flex-basis: 53%;
+}
+.page-analytics-text {
+  margin-bottom: 47px;
+}
+.page-analytics-second .title-h2 {
+  max-width: 316px;
+  margin-top: 12px;
+  margin-bottom: 26px;
+}
+.page-software .title-h2, .page-analytics .title-h2 {
   max-width: 766px;
   margin-top: 12px;
   margin-bottom: 26px;
+}
+.page-analytics .title-h2 {
+  line-height: 60px;
 }
 .page-software-list {
   margin-top: 31px;
@@ -326,6 +353,49 @@ margin-bottom: 10px;
   margin-bottom: 50px;
   line-height: 24px;
   font-size: 14px;
+}
+.content-app {
+  max-width: 55%;
+}
+.page-app-text {
+color: #c4d2dd;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 3.2px;
+margin-top: 31px;
+margin-bottom: 19px;
+}
+.page-app-list {
+  padding: 0;
+  list-style-type: none;
+  margin-left: -24px;
+}
+.page-app-list>li {
+  display: inline-block;
+}
+.page-app-list>li>a {
+  background-image: url(../img/market-links.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 194px;
+  height: 82px;
+}
+.page-app-list>li>a.android {
+  background-position: 0 0;
+}
+.page-app-list>li>a.ios {
+  background-position: -188px 0;
+}
+.video-app {
+  position: absolute;
+  top: -75px;
+  right: -164px;
+}
+.flex-analytics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .list-stat {
   display: flex;
@@ -555,4 +625,23 @@ margin-bottom: 10px;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+}
+.page-app {
+  padding: 118px 0 82px 0;;
+}
+.page-app .wrap {
+  position: relative;
+}
+.page-analytics {
+  background-image: url(../img/analitics-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 117px 0 137px 0;
+}
+.page-analytics-second {
+  background-image: url(../img/analytics-2bg.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 117px 0 137px 0;
 }
